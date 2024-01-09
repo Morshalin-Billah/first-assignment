@@ -1,0 +1,551 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&display=swap');
+
+
+/* All page css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/*---------------------------------- utility classes --------------------------------------- */
+
+/*01. font families */
+.ff-meri {
+    font-family: Merriweather;
+}
+
+.ff-inter {
+    font-family: Inter;
+}
+
+
+
+/* font sizes */
+.fs-72 {
+    font-size: 72px;
+}
+.fs-88 {
+    font-size: 88px;
+}
+.fs-64 {
+    font-size: 64px;
+}
+.fs-48 {
+    font-size: 48px;
+}
+.fs-32 {
+    font-size: 32px;
+}
+.fs-24 {
+    font-size: 24px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+
+
+/* font weights */
+.fw400 {
+    font-weight: 400;
+}
+.fw500 {
+    font-weight: 500;
+}
+.fw600 {
+    font-weight: 600;
+}
+.fw700 {
+    font-weight: 700;
+}
+.fw900 {
+    font-weight: 900;
+}
+
+
+/* text align - center s */
+.t-center {
+    text-align: center;
+}
+
+.line-hi32 {
+    line-height: 32px;
+}
+
+
+/*02. text color */
+.c-white {
+    color: white;
+}
+
+.c-red {
+    color: #FF0000;
+}
+
+.c-para {
+    color: rgba(7, 2, 17, 0.60);
+}
+
+
+
+
+/*03. background */
+.bg-contain {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-red {
+    background-color: #FF0000;
+}
+
+
+/*04. margin */
+
+.mt-100 {
+    margin-top:100px;
+}
+.mt-60 {
+    margin-top: 60px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-100 {
+    margin-bottom: 100px;
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+
+/*05. padding */
+
+.pl-20 {
+    padding-left: 20px ;
+}
+.pt50 {
+    padding-top: 50px;
+}
+.pt150 {
+    padding-top: 150px;
+}
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+
+/*06. display - flex */
+.f-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-bet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.f-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*07. height */
+.h100 {
+    height: 100%;
+}
+
+.h-auto {
+    height: auto;
+}
+
+.h-400 {
+    height: 400px;
+}
+
+.h-500{
+    height: 500px;
+}
+
+.h-600 {
+        height: 600px;
+}
+
+.h-700 {
+    height: 700px;
+}
+
+
+/*08. widths */
+.w60{
+    width: 60%;
+}
+.w80-only{
+    width: 80%;
+}
+
+.w80 {
+    width: 80%;
+    margin: 20px 10%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w-auto {
+    width: auto;
+}
+
+
+.w-600 {
+    width: 600px;
+}
+
+
+/*09. Button */
+.btn-primary {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: 0;
+}
+
+
+/*10. position - relative */
+.p-relative {
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------- style adds from here -------------------------------------- */
+
+
+/* part 01 */
+header {
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), transparent), url("../images/Banner\ Image.png");
+    height: 540px;
+    border-radius: 15px;
+
+
+}
+
+
+
+/* part 03 */
+.part-03 {
+    background-image: linear-gradient(to right, black,transparent), url("../images/Vectorrr.png");
+    height: 535px;
+    border-radius: 15px;
+    margin-bottom: 100px; 
+}
+
+.part-03> #part3-div {
+    width: 65%;
+    margin-left: 80px;
+}
+
+.part-03> #part3-div >h1{
+    letter-spacing: 5px;
+}
+
+.part-03> #part3-img {
+    width: 35%;
+}
+
+
+
+
+/* part 04 */
+
+.part-04 {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 15px;
+}
+
+.part-04 > p {
+    color: #070211;
+    margin-bottom: 10px;
+}
+
+.part-04 > p > span {
+    color: #FF0000;
+}
+
+.part-04 > button {
+    background-color: #FF0000;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* part 05 */
+.part-05 div {
+    width: 33%;
+}
+
+.part-05 #circle-image {
+    border: 15px solid #FF0000;
+    width: 34%;
+    border-radius: 50%;
+    padding: 25px;
+    margin: 0 60px;
+}
+
+
+
+/* part 06 */
+.part-06 {
+    width: 60%;
+    height: 300px;
+    margin: 20px 20%;
+    text-align: center;
+}
+
+.part-06 h3 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.part-06 h1 {
+    margin-bottom: 30px;
+    font-size: 70px;
+}
+
+.part-06 h1>span{
+    color: #FF0000;
+}
+
+
+
+/* part 07 */
+.part-07 .container {
+    border-radius: 15px;
+    margin-bottom: 80px;
+}
+
+.part-07 .container .girl-image{
+    height: 460px;
+    width: auto;
+    top: 0px;
+    left:722.5px;
+}
+
+.part-07 .container .red-stripe {
+    width: 100%;
+    height: 140px;
+    bottom: 5px;
+    right: 0px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.part-07 .container .discount-circle {
+    height: 250px;
+    width: auto;
+    bottom: 610px;
+    left: 600px;
+}
+
+
+.part-07 .container .surprise-box {
+    height: 400px;
+    width: auto;
+    bottom: 420px;
+    left: -190px;
+}
+
+
+
+
+/* part 08 */
+.part-08 {
+    width: 80.3%;
+    margin: 20px 10%;
+}
+
+/* text portion */
+.part-08 .Portfolio {
+    width: 70%;
+    height: 200px;
+}
+
+/* grid portion */
+.part-08 .item-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.part-08 .item-container .item {
+    height: 430px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.part-08 .item-container .item > .item-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.item > .item-img:hover {
+    width: 120%;
+    height: auto;
+    transition: transform 0.9s ease;
+    transform: scale(1.2);
+}
+
+
+.part-08 h3 {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.part-08 h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.part-08 h3, h1, p {
+    margin-bottom: 15px;
+}
+
+
+
+/* part 09 */
+.part-09 {
+    width: 80%;
+    margin: 50px 10%;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 15px;
+}
+
+.part-09 img {
+    width: 130px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.part-09 h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.part-09 p {
+    width: 60%;
+    text-align: center;
+}
+
+.part-09 div {
+    width: 80%;
+    height: 100px;
+}
+
+.part-09 input {
+    width: 30%;
+    height: 40%;
+    padding: 10px 15px;
+    border-top-left-radius:30px;
+    border-bottom-left-radius: 30px;
+    border: 0;
+    background: rgb(233, 233, 247);
+}
+
+.part-09 .subscribe-btn {
+    width: 15%;
+    height: 40%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+footer {
+    background: #070211;
+}
+
+.footer-div1{
+    height: 260px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-div1 div> .link {
+    text-decoration: none;
+}
+.footer-div2 {
+    height:100px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom:30px;
+}
+
+.footer-div2 > .footer-img {
+    height: 40px;
+    margin: 0 20px ;
+}
+
+.footer-div3 {
+    height:140px;
+}
+
+
+
